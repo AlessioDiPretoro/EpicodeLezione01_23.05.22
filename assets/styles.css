@@ -1,0 +1,106 @@
+body{
+
+    background-color: #e5e1e0;
+}
+
+ul {
+    padding-top: 2px;
+    padding-bottom: 20px;
+    list-style-type: none; 
+}
+
+li {
+    padding-top: 4px;
+
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+
+.main p{
+    font-size: 20px;
+}
+h1{
+    font-size: 40px;
+}
+
+h2{
+font-size: 40px;
+
+}
+th, td {
+text-align: left;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+tr:nth-child(even) {
+background-color: #c6c6c6;
+}
+
+#top{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu{
+    padding: 10px;
+    list-style-type: none; 
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.menu a, .menu p{
+    color: white;
+    text-decoration: none;
+    margin: 0;
+}
+
+
+.competenze {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.competenze li{
+    border-bottom-color: rgb(66, 66, 66);
+    border-bottom-style: dashed;
+
+}
+
+.competenze ul{
+    padding: 20px;
+    background-color: #e5e1e0;
+    border-color: black;
+    border-style: groove;
+}
+
+.competenze ol{
+    padding: 20px;
+    background-color: #e5e1e0;
+    border-color: black;
+    border-style: groove;
+}
+
+.tabella_esperienze{
+    margin-bottom: 2em;
+    border-spacing: 0; 
+    width: 100%;
+    border-color: black;
+    border-style: groove;
+    
+}
+.tabella_esperienze ul{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    list-style-type: "\1F44D"; 
+}
+
+.tabella_esperienze2 {
+    margin-bottom: 2em;
+    border-color: black;
+    border-style: double;
+}
